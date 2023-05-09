@@ -1,4 +1,4 @@
-package gao;
+
 import java.util.Scanner;
 
 public class CPE23621 {
