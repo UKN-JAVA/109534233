@@ -23,9 +23,10 @@ public class N16 {
                             if(xx==43 || xx==45) break;
                             System.out.print(st.pop());
                         }
+                        st.push(str);
                     }else{
                         if(!st.empty()){
-                        String x=st.pop();
+                            System.out.print(st.pop());
                     }
                     st.push(str);
                 }
@@ -33,7 +34,8 @@ public class N16 {
         }
         }
         while(!st.empty()){
-            System.out.print(st.pop());
+            System.out.print(st.pop()+" ");
         }
+        System.out.println();
     }
 }
